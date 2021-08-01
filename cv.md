@@ -11,3 +11,11 @@ Few years ago I decided to change my life and become a JavaScript developer. I h
 I would describe myself as a open-minded, easy-going person with good soft skills. 
 
 My goals are to land a job in the IT field and grow up to a Team lead or Senior position. It's pushing me to do all my best to achieve this. 
+
+## Education
+- `Komsomolsk-on-Amur State Technical University`, `2010`, `Master degree` in `Mechanical Engineering`.
+- English course at `Sakhalin English training center`. 
+- `Udemy` -`JavaScript Algorithms and data structures` by Colt Steele.
+- `Web Developer Bootcamp`, [see it here](https://andoraibu.github.io/yelpcamp/).
+- `HTML Academy` - `Professional HTML course`.
+- `Otus` - `Javascript Basics`.
