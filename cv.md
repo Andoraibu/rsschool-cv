@@ -44,4 +44,4 @@ Not related to the IT field. Mainly oil and gas industry.
 ## Projects
 
 ## English skills
-In `2019` passed English `TOEIC` exam at `B2` level. 
+In `2019` passed English `TOEIC` exam at `B2` level. Use it on a regular daily basis at my current job, writing buisness correspondes, discussing something with expats and so on.
