@@ -36,6 +36,22 @@ function getInitials(str){
 }
 
 console.log(getInitials('elon musk junior'));
+
+//get anagrams example
+function getAnagrams(input) {
+  let obj = {};
+  input.split(" ").forEach(el => {
+    let sortedEl = el.split('').sort().join('');
+    obj[sortedEl] ? obj[sortedEl].push(el) : obj[sortedEl] = [el];
+    });
+  for(let key of Object.keys(obj)){
+    if(obj[key].length <= 1){
+      delete obj[key];
+    }
+  }
+
+  return Object.values(obj);
+}
 ```
 
 ## Work experience
