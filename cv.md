@@ -19,3 +19,29 @@ My goals are to land a job in the IT field and grow up to a Team lead or Senior 
 - `Web Developer Bootcamp`, [see it here](https://andoraibu.github.io/yelpcamp/).
 - `HTML Academy` - `Professional HTML course`.
 - `Otus` - `Javascript Basics`.
+
+## Technical skills
+Basics of `HTML`, `CSS`, `Javascript`, `GIT`.
+
+## Code examples
+from my self-taught [repo](https://github.com/Andoraibu/js-algorithms-and-data-structures/blob/master/)
+```javascript
+//функция принимает имя и фамилию строкой и возвращает инициалы с точками
+//пример: 'elon musk' -> E.M.
+
+function getInitials(str){
+    
+    return str.split(' ').map(el => `${el[0].toUpperCase()}.` ).join('');
+
+}
+
+console.log(getInitials('elon musk junior'));
+```
+
+## Work experience
+Not related to the IT field. Mainly oil and gas industry.
+
+## Projects
+
+## English skills
+In `2019` passed English `TOEIC` exam at `B2` level. 
