@@ -1,0 +1,22 @@
+:root{
+    /* Background colors */
+    --basic-light: #003A3A;
+    --basic-dark: #FFEED9;
+    --basic-pink: #fad8ea;
+    /* Font colors */
+    --main-font-color: #333333;
+}
+
+body{
+    margin: 0;
+    color: var(--main-font-color);
+    background-color: var(--basic-light);
+}
+  .main-content{
+    margin: 0;
+    background-color: var(--basic-dark);
+    width: 1050px;
+    margin: 0 auto;
+    box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.6);
+}
+  
