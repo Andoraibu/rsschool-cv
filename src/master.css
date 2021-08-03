@@ -58,4 +58,50 @@ body{
 .info-wrapper__contacts a{
     text-decoration: none;
 }
-  
+
+.info-wrapper__contacts a:link,
+.info-wrapper__contacts a:visited{
+  color: inherit;
+}
+
+.mobile-wrapper, .mail-wrapper{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.mobile-wrapper > span, .mail-wrapper > span{
+  margin-right: 10px;
+}
+.pipe{
+  font-size: 22px;
+}
+.mobile-wrapper{
+  justify-content: end;
+
+}
+.mail-wrapper{
+  justify-content: start;
+}
+.info-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info-wrapper__name{
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.info-wrapper__job-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
