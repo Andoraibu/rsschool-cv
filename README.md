@@ -1,2 +1,2 @@
 # rsschool-cv
-https://Andoraibu.github.io/rsschool-cv
+https://wahlbeck.github.io/rsschool-cv
