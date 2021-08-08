@@ -55,7 +55,7 @@ body{
 }
 .info-wrapper__contacts{
     display: grid;
-    grid-template-columns: 300px 5px 300px;
+    grid-template-columns: 320px 5px 320px;
     margin-bottom: 30px;
     font-size: 17px;
 }
