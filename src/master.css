@@ -6,7 +6,11 @@
     /* Font colors */
     --main-font-color: #333333;
 }
-
+*{
+    /* Chrome создает по дефолту отступы, убираем */
+    margin-block-start: 0px;
+    margin-inline-end: 0px;
+}
 body{
     margin: 0;
     color: var(--main-font-color);
@@ -51,7 +55,7 @@ body{
 }
 .info-wrapper__contacts{
     display: grid;
-    grid-template-columns: 300px 5px 300px;
+    grid-template-columns: 320px 5px 320px;
     margin-bottom: 30px;
     font-size: 17px;
 }

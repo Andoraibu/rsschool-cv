@@ -16,7 +16,7 @@ My goals are to land a job in the IT field and grow up to a Team lead or Senior 
 - `Komsomolsk-on-Amur State Technical University`, `2010`, `Master degree` in `Mechanical Engineering`.
 - English course at `Sakhalin English training center`. 
 - `Udemy` -`JavaScript Algorithms and data structures` by Colt Steele.
-- `Web Developer Bootcamp`, [see it here](https://andoraibu.github.io/yelpcamp/).
+- `Web Developer Bootcamp`.
 - `HTML Academy` - `Professional HTML course`.
 - `Otus` - `Javascript Basics`.
 
@@ -24,35 +24,8 @@ My goals are to land a job in the IT field and grow up to a Team lead or Senior 
 Basics of `HTML`, `CSS`, `Javascript`, `GIT`.
 
 ## Code examples
-from my self-taught [repo](https://github.com/Andoraibu/js-algorithms-and-data-structures/blob/master/)
-```javascript
-//функция принимает имя и фамилию строкой и возвращает инициалы с точками
-//пример: 'elon musk' -> E.M.
-
-function getInitials(str){
-    
-    return str.split(' ').map(el => `${el[0].toUpperCase()}.` ).join('');
-
-}
-
-console.log(getInitials('elon musk junior'));
-
-//get anagrams example
-function getAnagrams(input) {
-  let obj = {};
-  input.split(" ").forEach(el => {
-    let sortedEl = el.split('').sort().join('');
-    obj[sortedEl] ? obj[sortedEl].push(el) : obj[sortedEl] = [el];
-    });
-  for(let key of Object.keys(obj)){
-    if(obj[key].length <= 1){
-      delete obj[key];
-    }
-  }
-
-  return Object.values(obj);
-}
-```
+JS self-taught playground [repo](https://github.com/wahlbeck/js-algorithms-and-data-structures/blob/master/)
+YelpCamp (https://wahlbeck.github.io/yelpcamp/)
 
 ## Work experience
 Not related to the IT field. Mainly oil and gas industry.
