@@ -1,2 +1,2 @@
 # rsschool-cv
-https://wahlbeck.github.io/rsschool-cv
+https://yamomotto.github.io/rsschool-cv
