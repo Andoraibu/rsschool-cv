@@ -1,2 +1,2 @@
 # rsschool-cv
-https://yamomotto.github.io/rsschool-cv
+https://andoraibu.github.io/rsschool-cv
