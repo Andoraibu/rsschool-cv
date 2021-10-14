@@ -8,16 +8,13 @@
 }
 *{
     /* Chrome создает по дефолту отступы, убираем */
-    margin-block-start: 0px;
-    margin-inline-end: 0px;
+    margin: 0;
 }
 body{
-    margin: 0;
     color: var(--main-font-color);
     background-color: var(--basic-light);
 }
 .main-content{
-    margin: 0;
     background-color: var(--basic-dark);
     width: 1050px;
     margin: 0 auto;
@@ -51,16 +48,20 @@ body{
     border-radius: 50%;
 }
 .info-wrapper{
-    padding-right: 80px;
+  padding-right: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .info-wrapper__contacts{
-    display: grid;
-    grid-template-columns: 320px 5px 320px;
-    margin-bottom: 30px;
-    font-size: 17px;
+  font-family: 'Montserrat';
+  margin-bottom: 25px;
+  margin-top: 15px;
+  font-size: 19px;
 }
 .info-wrapper__contacts a{
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .info-wrapper__contacts a:link,
@@ -80,6 +81,7 @@ body{
   margin-right: 10px;
 }
 .pipe{
+  margin: 0 16px 0;
   font-size: 22px;
 }
 .mobile-wrapper{
@@ -89,12 +91,7 @@ body{
 .mail-wrapper{
   justify-content: start;
 }
-.info-wrapper{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 .info-wrapper__name{
   font-family: "Merriweather", serif;
   font-size: 48px;
@@ -122,30 +119,16 @@ body{
 }
 .block-info{
     height: 120px;
-    margin-bottom: 42px;
+    margin-top: 15px;
+    margin-bottom: 30px;
     padding-left: 0;
 }
-  
-.block-info li{
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    line-height: 1.5;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-.block-header__wrapper{
-    width: 300px;
-    height: 38px;
-    background-color: var(--basic-pink);
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.3);
-}
-.b.main-wrapper{
+
+.main-wrapper{
     padding: 40px 60px 40px;
+}
+.background-wrapper__block{
+  margin: 10px 0;
 }
 .foreword{
     font-size: 24px;
@@ -153,11 +136,6 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     line-height: 1.5;
-}
-.block-info{
-    height: 120px;
-    margin-bottom: 42px;
-    padding-left: 0;
 }
   
 .block-info li{
