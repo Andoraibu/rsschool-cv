@@ -118,10 +118,10 @@ body{
     line-height: 1.5;
 }
 .block-info{
-    height: 120px;
     margin-top: 15px;
     margin-bottom: 30px;
     padding-left: 0;
+    font-size: 22px;
 }
 
 .main-wrapper{
